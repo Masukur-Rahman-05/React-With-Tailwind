@@ -1,10 +1,11 @@
 import { Aspect } from "./components/Aspect";
+import { BoxDecoration } from "./components/BoxDecoration";
 
 function App() {
   return (
     <>
       <div className="flex justify-center">
-        <Aspect />
+        <BoxDecoration />
       </div>
     </>
   );
